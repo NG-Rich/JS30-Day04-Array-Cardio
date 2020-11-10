@@ -1,3 +1,3 @@
 # JS30-Day04-Array-Cardio
 
-This is the fourth challenge out of thirty 
+This is the fourth challenge out of thirty where we practice array methods. I wanted to do something a little more challenging to give myself further practice. So in my JavaScript file I have completed it normally wrapped in multiple comment lines. What I ended up doing past that was implement displaying the data fron simple console logs to having the results displayed when you press their respective buttons.
