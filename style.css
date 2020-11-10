@@ -1,0 +1,19 @@
+html {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #f9f4ef;
+  color: #716040;
+}
+
+div div {
+  display: inline-grid;
+}
+
+pre {
+  display: none;
+  text-align: initial;
+}
+
+#inventorsReduce {
+  justify-content: center;
+}
