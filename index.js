@@ -72,15 +72,9 @@ const showData = () => {
 
 // Array.prototype.filter()
 const inventorFilter = () => {
-  const oldInventors = [];
   const toggleInventors = document.getElementById("inventorsFilter");
-
-  inventors.forEach(inventor => {
-    if (inventor.year >= 1500 && inventor.year < 1600) {
-      oldInventors.push(inventor);
-      document.getElementById("inventorsFilter").innerHTML = JSON.stringify(oldInventors, null, 4);
-    }
-  })
+  const filterInventors = inventors.filter(inventor => inventor.year >= 1500 && inventor.year < 1600);
+  document.getElementById("inventorsFilter").innerText = JSON.stringify(filterInventors, null, 4);
 
   if (toggleInventors.style.display === "inline-block") {
     toggleInventors.style.display = "none";
